@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
+//这是新导入版本代码提交
 @MapperScan(value = "com.atguigu.gmall.user.mapper")
 @SpringBootApplication
 public class GmallUserApplication {
